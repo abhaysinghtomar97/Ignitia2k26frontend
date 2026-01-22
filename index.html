@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignitia 2K26 - Ignite The Future</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="bg-container" id="bgContainer"></div>
+
+    <nav id="navbar">
+        <div class="logo"><img src="/assets/splash-icon.webp"></div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1 id="heroTitle">IGNITIA</h1>
+        <div class="year">2K26</div>
+        <p class="tagline">IGNITE THE FUTURE</p>
+        <div class="countdown">
+            <div class="countdown-item">
+                <div class="countdown-value" id="days">00</div>
+                <div class="countdown-label">DAYS</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="hours">00</div>
+                <div class="countdown-label">HOURS</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="minutes">00</div>
+                <div class="countdown-label">MINUTES</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="seconds">00</div>
+                <div class="countdown-label">SECONDS</div>
+            </div>
+        </div>
+        <button class="cta-button">REGISTER NOW</button>
+    </section>
+
+    <section class="section" id="about">
+        <div class="glass-card">
+            <h2>About Ignitia 2K26</h2>
+            <p>Welcome to Ignitia 2K26, the premier tech festival that brings together innovators, creators, and tech enthusiasts from around the globe. Experience cutting-edge technology, participate in thrilling competitions, attend inspiring workshops, and network with industry leaders. Join us as we ignite the future of technology and innovation.</p>
+        </div>
+    </section>
+
+    <section class="events-section" id="events">
+        <div class="events-header">
+            <h2>Our Events</h2>
+            <div class="search-container">
+                <input type="text" class="search-box" id="searchBox" placeholder="Search events...">
+                <img src="/assets/search.png" class="search-icon">
+            </div>
+        </div>
+        <div class="events-grid" id="eventsGrid"></div>
+        <div class="no-results" id="noResults" style="display: none;">No events found matching your search.</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ignitia. All rights reserved. | Ignite The Future</p>
+    </footer>
+
+       
+    <script src="script.js"></script>
+</body>
+</html>
